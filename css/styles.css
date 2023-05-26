@@ -293,14 +293,31 @@ img {
 }
 
 .costumers__item {
-	flex-basis: calc((100% - 120) / 6);
-	/* width: 168px; */
+	width: 168px;
 	height: 88px;
-	border: 1px solid var(--light-slate);
-	border-radius: 4px;
+}
+
+.costumers__link {
+	width: 100%;
+	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border: 1px solid var(--light-slate);
+	border-radius: 4px;
+	color: var(--light-slate);
+}
+
+.costumers__icon {
+	width: 104px;
+	height: 56px;
+	fill: currentColor;
+}
+
+.costumers__link:hover,
+.costumers__link:focus {
+	color: var(--color-hover);
+	border-color: var(--color-hover);
 }
 
 /*! --------- Footer ---------  */
