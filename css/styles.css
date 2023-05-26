@@ -411,9 +411,8 @@ img {
 	margin-bottom: 16px;
 }
 
-.footer__icon {
-	width: 24px;
-	height: 24px;
+.footer__icons {
+	gap: 16px;
 }
 
 /*? ---------- Portfolio page ---------  */
