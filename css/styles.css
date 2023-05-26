@@ -116,6 +116,34 @@ img {
 	color: var(--color-text);
 }
 
+/** --------- Icons ----------  */
+.icons__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.icons__item {
+	width: 40px;
+	height: 40px;
+}
+
+.icons__link {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: var(--color-accent);
+}
+
+.icons__link:hover,
+.icons__link:focus {
+	background-color: var(--color-hover);
+}
+
 /*! -------- Header --------- */
 
 .header {
@@ -300,36 +328,12 @@ img {
 }
 
 .team__icons {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 24px;
 	padding-bottom: 32px;
-}
-
-.team-icons__item {
-	width: 40px;
-	height: 40px;
-}
-
-.team-icons__link {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	background-color: var(--color-accent);
 }
 
 .team__icon {
 	width: 16px;
 	height: 16px;
-}
-
-.team-icons__link:hover,
-.team-icons__link:focus {
-	background-color: var(--color-hover);
 }
 
 /*! ---------- Costumers ------  */
