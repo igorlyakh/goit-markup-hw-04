@@ -324,6 +324,10 @@ img {
 	flex-basis: calc((100% - 24px) / 4);
 }
 
+.team__icon {
+	fill: var(--light-gray);
+}
+
 /*! ---------- Costumers ------  */
 
 .costumers__list {
