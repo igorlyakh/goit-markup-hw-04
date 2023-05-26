@@ -1,3 +1,5 @@
+/** ------- Variables ------------ */
+
 :root {
 	--color-accent: #4d5ae5;
 	--accent-dark: #2e2f42;
@@ -9,6 +11,8 @@
 	--light-accent: #e7e9fc;
 	--default-white: #ffffff;
 }
+
+/** --------- Default styles -------- */
 
 body {
 	font-family: var(--main-font);
@@ -33,6 +37,8 @@ img {
 	display: block;
 	max-width: 100%;
 }
+
+/** ------ Techical classes ------ */
 
 .visually-hidden {
 	position: absolute;
@@ -109,6 +115,8 @@ img {
 	color: var(--color-text);
 }
 
+/*! -------- Header --------- */
+
 .header {
 	border-bottom: 1px solid var(--light-accent);
 }
@@ -175,8 +183,20 @@ img {
 	display: block;
 }
 
+/*! ------ Hero -------- */
+
 .hero {
-	background: var(--accent-dark);
+	background-color: var(--accent-dark);
+	background-image: linear-gradient(
+			rgba(46, 47, 66, 0.7),
+			rgba(46, 47, 66, 0.7)
+		),
+		url(../images/hero-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1140px;
+	margin: 0 auto;
 	padding: 188px 0;
 }
 
@@ -208,6 +228,8 @@ img {
 	gap: 24px;
 }
 
+/*!----------- Benefits ----------  */
+
 .benefits__title {
 	font-weight: 500;
 	font-size: 20px;
@@ -228,6 +250,8 @@ img {
 	color: var(--color-text);
 }
 
+/*! -------- About --------- */
+
 .about {
 	padding-top: 0;
 }
@@ -235,6 +259,8 @@ img {
 .about__item {
 	flex-basis: calc((100% - 24px) / 3);
 }
+
+/*! ----------- Team ---------- */
 
 .team {
 	background: var(--light-gray);
@@ -255,6 +281,8 @@ img {
 	border-radius: 0px 0px 4px 4px;
 	flex-basis: calc((100% - 24px) / 4);
 }
+
+/*! --------- Footer ---------  */
 
 .footer {
 	background: var(--accent-dark);
@@ -279,6 +307,8 @@ img {
 	color: var(--light-gray);
 	width: 264px;
 }
+
+/*? ---------- Portfolio page ---------  */
 
 .portfolio {
 	padding: 96px 0 120px;
