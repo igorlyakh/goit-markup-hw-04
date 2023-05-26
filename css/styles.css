@@ -10,6 +10,7 @@
 	--light-gray: #f4f4fd;
 	--light-accent: #e7e9fc;
 	--default-white: #ffffff;
+	--light-slate: #8e8f99;
 }
 
 /** --------- Default styles -------- */
@@ -38,7 +39,7 @@ img {
 	max-width: 100%;
 }
 
-/** ------ Techical classes ------ */
+/** ------ Technical classes ------ */
 
 .visually-hidden {
 	position: absolute;
@@ -282,6 +283,26 @@ img {
 	flex-basis: calc((100% - 24px) / 4);
 }
 
+/*! ---------- Costumers ------  */
+
+.costumers__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.costumers__item {
+	flex-basis: calc((100% - 120) / 6);
+	/* width: 168px; */
+	height: 88px;
+	border: 1px solid var(--light-slate);
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 /*! --------- Footer ---------  */
 
 .footer {
@@ -334,7 +355,9 @@ img {
 .portfolio__btn:hover,
 .portfolio__btn:focus {
 	color: var(--default-white);
-	border: 1px solid transparent;
+	border-color: transparent;
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+		0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio__list {
