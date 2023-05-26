@@ -148,6 +148,8 @@ img {
 
 .header {
 	border-bottom: 1px solid var(--light-accent);
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+		0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header__link {
@@ -224,7 +226,7 @@ img {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 1140px;
+	max-width: 1140px;
 	margin: 0 auto;
 	padding: 188px 0;
 }
@@ -270,11 +272,7 @@ img {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 8px;
-}
-
-.benefits__icon {
-	width: 64px;
-	height: 64px;
+	border-radius: 4px;
 }
 
 .benefits__title {
@@ -461,8 +459,12 @@ img {
 	flex-basis: calc((100% - 48px) / 3);
 }
 
-.portfolio__projects:hover,
-.portfolio__projects:focus {
+.portfolio__link {
+	display: block;
+}
+
+.portfolio__link:hover,
+.portfolio__link:focus {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 		0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
