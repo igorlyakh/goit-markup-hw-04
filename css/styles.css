@@ -283,6 +283,8 @@ img {
 
 .card__descr {
 	padding: 32px 16px;
+	padding-bottom: 0;
+	margin-bottom: 8px;
 }
 
 .team__text {
@@ -295,6 +297,39 @@ img {
 		0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
 	flex-basis: calc((100% - 24px) / 4);
+}
+
+.team__icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	padding-bottom: 32px;
+}
+
+.team-icons__item {
+	width: 40px;
+	height: 40px;
+}
+
+.team-icons__link {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background-color: var(--color-accent);
+}
+
+.team__icon {
+	width: 16px;
+	height: 16px;
+}
+
+.team-icons__link:hover,
+.team-icons__link:focus {
+	background-color: var(--color-hover);
 }
 
 /*! ---------- Costumers ------  */
