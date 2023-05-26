@@ -404,6 +404,10 @@ img {
 	margin-bottom: 16px;
 }
 
+.footer__icon {
+	fill: var(--light-gray);
+}
+
 .footer__icons {
 	gap: 16px;
 }
